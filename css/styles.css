@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+    --bg-color: #333;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+/* Navbar */
+nav {
+    background-color: var(--bg-color);
+    position: sticky;
+    display: block;
+}
+nav img {
+    float:left;
+    width: 40px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+ul li:hover {
+    background-color:silver;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul li:last-child {
+    float: right;   
+}
+/* Content */
+/* Main image */
+div.container > img {
+    width: 100%;
+    display: block;
+}
+.container {
+    position: relative;
+}
+.title-img {
+    text-align: center;
+    color: rgb(255, 240, 255);
+    font-size: 22px;
+}
+.title-container {
+    background-color: rgba( 0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+}
+.subtitle-img {
+    text-align: left;
+    color: rgb(255, 240, 255);
+}
+.subtitle-container {
+    background-color: rgba( 0, 0, 0, 0.3);
+    position: absolute;
+    width: 40%;
+    bottom: 0px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* Information */
+.description {
+    margin: 30px 30px 50px 30px;
+}
+.img-hotel-view {
+    float: left;
+    width: 350px;
+    height: auto;
+    margin: 0px 10px 50px 0px;
+}
+.book {
+    display: inline-block;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    width: 100%;
+    font-weight: bold;
+    font-size: 21px;
+    border: 1px solid black;
+}
+.book:hover {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+/* Message section */
+.message {
+    background-color: var(--bg-color);   
+}
+.message-text {
+    color: white;
+    display: inline-block;
+    padding: 40px 100px 40px 100px;
+    border: 1px solid;
+    margin: 50px;
+}
+/* Footer */
+footer {
+    background-color: var(--bg-color);
+    position: relative;
+    bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    margin-bottom: -3px;
+    font-family: 'Montserrat', sans-serif;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.copyright {
+    float: left;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.copyright p {
+    display: inline-block;
+}
+.copyright p:first-child {
+    margin-top: 25px;
+    margin-bottom: -5px;
+}
+.social-media {
+    float: right;
+    font-size: 28px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+.social-media i {
+    padding-left: 12px;
+}
+.social-media p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
